@@ -88,7 +88,7 @@
             <div class="container">
               <div class="section-heading">
                 <h2>Education</h2>
-                <div class="line-dec"></div>                
+                <div class="line-dec"></div>
               </div>
               <ul>
                 <li>
@@ -104,7 +104,6 @@
                       </div>
                     </div>
                   </div>
-
                   <div class="service-item">
                     <div class="container">
                       <div class="row">
@@ -117,7 +116,6 @@
                       </div>
                     </div>
                   </div>
-
                 </li>
               </ul>
             </div>
@@ -134,118 +132,118 @@
                 >
               </div>
               
-                    </div>
-                  </section>
-                  <section class="section projects" data-section="section4">
-                    <div class="container">
-                      <div class="section-heading">
-                        <h2>Projects</h2>
-                        <div class="line-dec"></div>
-                        <span
-                          >Fusce eget nibh nec justo interdum condimentum. Morbi justo ex,
-                          efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor
-                        sit amet, consectetur adipiscing elit.</span
-                        >
-                      </div>
-                      
-                       
-                    </div>
-                  </section>
-                  <section class="section awards" data-section="section5">
-                    <div class="container">
-                      <div class="section-heading">
-                        <h2>Awards</h2>
-                        <div class="line-dec"></div>
-                        <span>
-                          Fusce eget nibh nec justo interdum condimentum. Morbi justo ex, efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </span>
-                      </div>
-                      
-                      <div class="right-image-post">
-                        <div class="row">
-                          
-                          <div class="col-md-6">
-                            
-                          </div>
-                        </div>
-                      </div>
-                      Bellow Line Here
-                    </div>
-                  </section>
-                  <section class="section contact-me" data-section="section6">
-                    <div class="container">
-                      <div class="section-heading">
-                        <h2>Contact Me</h2>
-                        <div class="line-dec"></div>
-                        <span>
-                          Fusce eget nibh nec justo interdum condimentum. Morbi justo ex, efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                        </span>
-                      </div>
-                      
-                      <div class="right-image-post">
-                        <div class="row">
-                          
-                          <div class="col-md-6">
-                            
-                          </div>
-                        </div>
-                      </div>
-                      Bellow Line Here
-                    </div>
-                  </section>
+            </div>
+          </section>
+          <section class="section projects" data-section="section4">
+            <div class="container">
+              <div class="section-heading">
+                <h2>Projects</h2>
+                <div class="line-dec"></div>
+                <span
+                  >Fusce eget nibh nec justo interdum condimentum. Morbi justo ex,
+                  efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit.</span
+                >
+              </div>
+              
+              
+            </div>
+          </section>
+          <section class="section awards" data-section="section5">
+            <div class="container">
+              <div class="section-heading">
+                <h2>Awards</h2>
+                <div class="line-dec"></div>
+                <span>
+                  Fusce eget nibh nec justo interdum condimentum. Morbi justo ex, efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </span>
+              </div>
+              
+              <div class="right-image-post">
+                <div class="row">
+                  
+                  <div class="col-md-6">
+                    
+                  </div>
                 </div>
-                <!-- Scripts -->
-                <!-- Bootstrap core JavaScript -->
-                <script src="vendor/jquery/jquery.min.js"></script>
-                <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-                <script src="assets/js/isotope.min.js"></script>
-                <script src="assets/js/owl-carousel.js"></script>
-                <script src="assets/js/lightbox.js"></script>
-                <script src="assets/js/custom.js"></script>
-                <script>
-                //according to loftblog tut
-                $(".main-menu li:first").addClass("active");
-                var showSection = function showSection(section, isAnimate) {
-                var direction = section.replace(/#/, ""),
-                reqSection = $(".section").filter(
-                '[data-section="' + direction + '"]'
-                ),
-                reqSectionPos = reqSection.offset().top - 0;
-                if (isAnimate) {
-                $("body, html").animate(
-                {
-                scrollTop: reqSectionPos
-                },
-                800
-                );
-                } else {
-                $("body, html").scrollTop(reqSectionPos);
-                }
-                };
-                var checkSection = function checkSection() {
-                $(".section").each(function() {
-                var $this = $(this),
-                topEdge = $this.offset().top - 80,
-                bottomEdge = topEdge + $this.height(),
-                wScroll = $(window).scrollTop();
-                if (topEdge < wScroll && bottomEdge > wScroll) {
-                var currentId = $this.data("section"),
-                reqLink = $("a").filter("[href*=\\#" + currentId + "]");
-                reqLink
-                .closest("li")
-                .addClass("active")
-                .siblings()
-                .removeClass("active");
-                }
-                });
-                };
-                $(".main-menu").on("click", "a", function(e) {
-                e.preventDefault();
-                showSection($(this).attr("href"), true);
-                });
-                $(window).scroll(function() {
-                checkSection();
-                });
-                </script>
-              </body>
-            </html>
+              </div>
+              Bellow Line Here
+            </div>
+          </section>
+          <section class="section contact-me" data-section="section6">
+            <div class="container">
+              <div class="section-heading">
+                <h2>Contact Me</h2>
+                <div class="line-dec"></div>
+                <span>
+                  Fusce eget nibh nec justo interdum condimentum. Morbi justo ex, efficitur at ante ac, tincidunt maximus ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </span>
+              </div>
+              
+              <div class="right-image-post">
+                <div class="row">
+                  
+                  <div class="col-md-6">
+                    
+                  </div>
+                </div>
+              </div>
+              Bellow Line Here
+            </div>
+          </section>
+        </div>
+        <!-- Scripts -->
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/isotope.min.js"></script>
+        <script src="assets/js/owl-carousel.js"></script>
+        <script src="assets/js/lightbox.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script>
+        //according to loftblog tut
+        $(".main-menu li:first").addClass("active");
+        var showSection = function showSection(section, isAnimate) {
+        var direction = section.replace(/#/, ""),
+        reqSection = $(".section").filter(
+        '[data-section="' + direction + '"]'
+        ),
+        reqSectionPos = reqSection.offset().top - 0;
+        if (isAnimate) {
+        $("body, html").animate(
+        {
+        scrollTop: reqSectionPos
+        },
+        800
+        );
+        } else {
+        $("body, html").scrollTop(reqSectionPos);
+        }
+        };
+        var checkSection = function checkSection() {
+        $(".section").each(function() {
+        var $this = $(this),
+        topEdge = $this.offset().top - 80,
+        bottomEdge = topEdge + $this.height(),
+        wScroll = $(window).scrollTop();
+        if (topEdge < wScroll && bottomEdge > wScroll) {
+        var currentId = $this.data("section"),
+        reqLink = $("a").filter("[href*=\\#" + currentId + "]");
+        reqLink
+        .closest("li")
+        .addClass("active")
+        .siblings()
+        .removeClass("active");
+        }
+        });
+        };
+        $(".main-menu").on("click", "a", function(e) {
+        e.preventDefault();
+        showSection($(this).attr("href"), true);
+        });
+        $(window).scroll(function() {
+        checkSection();
+        });
+        </script>
+      </body>
+    </html>
